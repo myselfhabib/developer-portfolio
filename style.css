@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .color1{
     color: rgb(6, 120, 173);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -35,4 +38,32 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.experience-item{
+    width:40%;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-left: 20px;
+    padding-right: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+}
+#web-developer{
+    border-left: solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stak-experience{
+    border-left: solid;
+    border-image: linear-gradient(rgb(238, 158, 10), rgb(7, 243, 223));
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
