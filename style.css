@@ -55,12 +55,12 @@ h2{
     box-shadow: 10px 10px 40px grey;
 }
 #web-developer{
-    border-left: solid;
+    border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
 #full-stak-experience{
-    border-left: solid;
+    border-left: 7px solid;
     border-image: linear-gradient(rgb(238, 158, 10), rgb(7, 243, 223));
     border-image-slice: 1;
 }
